@@ -18,8 +18,7 @@ info("AGC Team")
 
 # ฟังก์ชันแบบมีการรับค่าและมี return ค่า
 def area(width, height):
-    result = width * height
-    return result
+    return width * height
 
 
 # เรียกใช้งานฟังก์ชัน area

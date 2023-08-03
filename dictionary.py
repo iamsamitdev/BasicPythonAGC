@@ -30,7 +30,7 @@ print(countries)
 print("----------------------------")
 
 # การ loop อ่านสมาชิกทั้งหมดใน dictionary
-for k in countries.keys():
+for k in countries:
     print(k)
 
 print("----------------------------")
