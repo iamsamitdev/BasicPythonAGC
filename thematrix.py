@@ -52,7 +52,7 @@ def end():
 
 def print_at(char, x, y, color="", bright="0"):
     pr("%d;%df" % (y, x))
-    pr(bright + ";" + color + "m")
+    pr(f"{bright};{color}m")
     print(char, end="", flush=True)
 
 

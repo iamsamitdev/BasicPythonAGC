@@ -1,13 +1,8 @@
 # หาผลรวมเบอร์โทรศัพท์ก่อน
-total = 0  # ไว้เก็บผลรวม
-
 # รับค่าเบอร์ผู้ใช้เข้ามา
 phone = input("Enter your phone number:")
 
-# วนลูปหาผลรวม
-for c in phone:
-    total += int(c)  # แปลงชนิด string เป็น int
-
+total = sum(int(c) for c in phone)
 # print(total)
 
 # ทำนายผลรวมที่ได้

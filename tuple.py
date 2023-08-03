@@ -1,6 +1,6 @@
 # การสร้างตัวแปร tuple
 a = (1, 2, 3, 4)
-b = tuple(['C++', 'C#', 'Java', 'Python'])
+b = 'C++', 'C#', 'Java', 'Python'
 c = tuple(range(1, 10, 2))
 
 print(a)

@@ -19,6 +19,6 @@ else:
 # เงื่อนแบบ ternary
 x, y = 50, 25
 
-small = x if x < y else y
+small = min(x, y)
 
 print(small)

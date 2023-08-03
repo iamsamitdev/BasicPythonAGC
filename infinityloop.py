@@ -4,12 +4,8 @@ num = 0
 count = 1
 
 while True:
-    if num == 1:
-        print(f"Round {count} = {num}")
-        num = 0
-    else:
-        print(f"Round {count} = {num}")
-        num = 1
+    print(f"Round {count} = {num}")
+    num = 0 if num == 1 else 1
     # เมื่อครบ 20 รอบให้หยุดออกจาก loop
     if count == 20:
         break

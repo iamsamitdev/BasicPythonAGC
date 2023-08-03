@@ -8,7 +8,7 @@ def read_person():
     cursor = connection.cursor()
 
     # เขียนคำสั่ง sql สำหรับสร้างตารางใหม่
-    sql = f"SELECT * FROM person ORDER BY id DESC"
+    sql = "SELECT * FROM person ORDER BY id DESC"
 
     try:
         cursor.execute(sql)
